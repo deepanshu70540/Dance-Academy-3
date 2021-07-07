@@ -8,10 +8,24 @@
   <link rel="stylesheet" type="text/css" href="./css.css">
 </head>
 <body>
+
   
 
-    <div style="display: flex; " class="code-area">
-      <h1> CODE</h1>
+<!-- As a heading -->
+<nav class="navbar navbar-dark bg-dark">
+
+
+  <div class="container-fluid">
+    <span class="navbar-brand mb-0 h1">JQuery</span>
+  </div>
+</nav>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-5">
+      <div style="display: flex; " class="code-area">
+      
       <button type="button" class="btn btn-dark">HTML</button>
       
       <textarea id="htmlCode" placeholder="HTML Code" 
@@ -25,12 +39,40 @@
       <textarea id="jsCode" placeholder="JavaScript Code" 
                 oninput="showPreview()"></textarea>       
     </div>
-     
-    <div class="preview-area">
+    </div>
+    <div class="col-5">
+      
+     <div class="preview-area">
       
       <button type="button" class="btn btn-dark" id="output1">OUTPUT</button>
       <iframe id="preview-window"></iframe>
     </div>
+    </div>
+    
+  </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2021 Copyright:
+   
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
+
+
+
+  
+
+   
 </body>
 <script >
   function showPreview(){
