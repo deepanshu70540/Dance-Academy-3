@@ -9,3 +9,14 @@
  git remote add origin https://github.com/deepanshu70540/Dance-Academy-3.git
 
  git push origin master
+
+
+
+
+//add another file
+
+git status
+git add .
+
+git commit -m "Added git step"
+git push origin master
